@@ -20,15 +20,15 @@ pipeline {
 	    
 	    stage('build docker image') {
 	     steps {
-	        sh 'docker build -t product:latest .'
+	        sh 'docker build -t account:latest .'
 	      }
     	}
     	
     	stage('push image') {
 	     steps {
 	        sh 'docker login -u=admin -p=admin https://mycluster.icp:8500'
-	        sh 'docker tag product:latest mycluster.icp:8500/ibmcom/product:latest'
-	        sh 'docker push mycluster.icp:8500/ibmcom/product:latest'
+	        sh 'docker tag product:latest mycluster.icp:8500/ibmcom/account:latest'
+	        sh 'docker push mycluster.icp:8500/ibmcom/account:latest'
 	      }
     	}
     }
