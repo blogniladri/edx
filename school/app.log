@@ -1,0 +1,170 @@
+2019-04-04 16:53:13.097  INFO 25384 --- [main] o.openedusoft.school.SchoolApplication   : Starting SchoolApplication on niladris-mbp.in.ibm.com with PID 25384 (/Users/niladri/workspace/edx/school/target/classes started by niladri in /Users/niladri/workspace/edx/school)
+2019-04-04 16:53:13.100  INFO 25384 --- [main] o.openedusoft.school.SchoolApplication   : No active profile set, falling back to default profiles: default
+2019-04-04 16:53:14.230  INFO 25384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2019-04-04 16:53:14.257  INFO 25384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-04 16:53:14.258  INFO 25384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-04 16:53:14.266  INFO 25384 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/niladri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-04 16:53:14.340  INFO 25384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-04 16:53:14.340  INFO 25384 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1199 ms
+2019-04-04 16:53:14.820  INFO 25384 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 16:53:15.012  INFO 25384 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-04 16:53:15.085  INFO 25384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2019-04-04 16:53:15.088  INFO 25384 --- [main] o.openedusoft.school.SchoolApplication   : Started SchoolApplication in 2.317 seconds (JVM running for 2.621)
+2019-04-04 16:53:21.164  INFO 25384 --- [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-04 16:53:21.165  INFO 25384 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-04 16:53:21.170  INFO 25384 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-04-04 16:54:09.770  WARN 25384 --- [http-nio-9001-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "offset=1000"]
+2019-04-04 16:55:25.683  INFO 25384 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 16:55:29.788  INFO 25392 --- [main] o.openedusoft.school.SchoolApplication   : Starting SchoolApplication on niladris-mbp.in.ibm.com with PID 25392 (/Users/niladri/workspace/edx/school/target/classes started by niladri in /Users/niladri/workspace/edx/school)
+2019-04-04 16:55:29.791 DEBUG 25392 --- [main] o.openedusoft.school.SchoolApplication   : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 16:55:29.792  INFO 25392 --- [main] o.openedusoft.school.SchoolApplication   : No active profile set, falling back to default profiles: default
+2019-04-04 16:55:30.953  INFO 25392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2019-04-04 16:55:30.981  INFO 25392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-04 16:55:30.981  INFO 25392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-04 16:55:30.989  INFO 25392 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/niladri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-04 16:55:31.067  INFO 25392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-04 16:55:31.068  INFO 25392 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1236 ms
+2019-04-04 16:55:31.562  INFO 25392 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 16:55:31.782  INFO 25392 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-04 16:55:31.857  INFO 25392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2019-04-04 16:55:31.860  INFO 25392 --- [main] o.openedusoft.school.SchoolApplication   : Started SchoolApplication in 2.393 seconds (JVM running for 2.697)
+2019-04-04 16:55:33.609  INFO 25392 --- [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-04 16:55:33.609  INFO 25392 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-04 16:55:33.614  INFO 25392 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-04-04 16:55:33.647 DEBUG 25392 --- [http-nio-9001-exec-1] o.o.school.controller.SchoolController   : INSIDE searchSchool
+2019-04-04 16:55:33.648 DEBUG 25392 --- [http-nio-9001-exec-1] o.o.school.controller.SchoolController   : tag1:null
+2019-04-04 16:55:33.648 DEBUG 25392 --- [http-nio-9001-exec-1] o.o.school.controller.SchoolController   : tag1:null
+2019-04-04 16:55:33.648 DEBUG 25392 --- [http-nio-9001-exec-1] o.o.school.controller.SchoolController   : tag1:null
+2019-04-04 16:55:33.648 DEBUG 25392 --- [http-nio-9001-exec-1] o.o.school.controller.SchoolController   : tag1:null
+2019-04-04 16:55:33.648 DEBUG 25392 --- [http-nio-9001-exec-1] o.o.school.controller.SchoolController   : tag1:null
+2019-04-04 16:55:33.648 DEBUG 25392 --- [http-nio-9001-exec-1] o.o.school.controller.SchoolController   : tag1:null
+2019-04-04 16:55:33.649 DEBUG 25392 --- [http-nio-9001-exec-1] o.o.school.controller.SchoolController   : tag1:1000
+2019-04-04 16:55:33.649 DEBUG 25392 --- [http-nio-9001-exec-1] o.o.school.controller.SchoolController   : tag1:100
+2019-04-04 16:55:33.649 DEBUG 25392 --- [http-nio-9001-exec-1] o.o.school.controller.SchoolController   : tag1:null
+2019-04-04 17:17:10.902  INFO 25392 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:24:23.581  INFO 25584 --- [main] o.openedusoft.school.SchoolApplication   : Starting SchoolApplication on niladris-mbp.in.ibm.com with PID 25584 (/Users/niladri/workspace/edx/school/target/classes started by niladri in /Users/niladri/workspace/edx/school)
+2019-04-04 17:24:23.584 DEBUG 25584 --- [main] o.openedusoft.school.SchoolApplication   : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 17:24:23.585  INFO 25584 --- [main] o.openedusoft.school.SchoolApplication   : No active profile set, falling back to default profiles: default
+2019-04-04 17:24:24.759  INFO 25584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2019-04-04 17:24:24.788  INFO 25584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-04 17:24:24.788  INFO 25584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-04 17:24:24.797  INFO 25584 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/niladri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-04 17:24:24.871  INFO 25584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-04 17:24:24.871  INFO 25584 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1252 ms
+2019-04-04 17:24:25.347  INFO 25584 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:24:25.556  INFO 25584 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-04 17:24:25.626  INFO 25584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2019-04-04 17:24:25.629  INFO 25584 --- [main] o.openedusoft.school.SchoolApplication   : Started SchoolApplication in 2.433 seconds (JVM running for 2.734)
+2019-04-04 17:24:37.520  INFO 25584 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:42:24.172  INFO 25599 --- [main] o.openedusoft.school.SchoolApplication   : Starting SchoolApplication on niladris-mbp.in.ibm.com with PID 25599 (/Users/niladri/workspace/edx/school/target/classes started by niladri in /Users/niladri/workspace/edx/school)
+2019-04-04 17:42:24.175 DEBUG 25599 --- [main] o.openedusoft.school.SchoolApplication   : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 17:42:24.176  INFO 25599 --- [main] o.openedusoft.school.SchoolApplication   : No active profile set, falling back to default profiles: default
+2019-04-04 17:42:25.335  INFO 25599 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2019-04-04 17:42:25.366  INFO 25599 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-04 17:42:25.366  INFO 25599 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-04 17:42:25.375  INFO 25599 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/niladri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-04 17:42:25.447  INFO 25599 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-04 17:42:25.447  INFO 25599 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1230 ms
+2019-04-04 17:42:25.911  INFO 25599 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:42:26.115  INFO 25599 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-04 17:42:26.179  INFO 25599 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2019-04-04 17:42:26.182  INFO 25599 --- [main] o.openedusoft.school.SchoolApplication   : Started SchoolApplication in 2.339 seconds (JVM running for 2.682)
+2019-04-04 17:42:30.562  INFO 25599 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 19:52:54.774  INFO 25898 --- [main] o.openedusoft.school.SchoolApplication   : Starting SchoolApplication on niladris-MacBook-Pro.local with PID 25898 (/Users/niladri/workspace/edx/school/target/classes started by niladri in /Users/niladri/workspace/edx/school)
+2019-04-04 19:52:54.777 DEBUG 25898 --- [main] o.openedusoft.school.SchoolApplication   : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 19:52:54.778  INFO 25898 --- [main] o.openedusoft.school.SchoolApplication   : No active profile set, falling back to default profiles: default
+2019-04-04 19:52:55.836  INFO 25898 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2019-04-04 19:52:55.863  INFO 25898 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-04 19:52:55.863  INFO 25898 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-04 19:52:55.871  INFO 25898 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/niladri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-04 19:52:55.959  INFO 25898 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-04 19:52:55.960  INFO 25898 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1151 ms
+2019-04-04 19:52:56.398  INFO 25898 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 19:52:56.623  INFO 25898 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-04 19:52:56.695  INFO 25898 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2019-04-04 19:52:56.698  INFO 25898 --- [main] o.openedusoft.school.SchoolApplication   : Started SchoolApplication in 17.236 seconds (JVM running for 17.555)
+2019-04-04 19:54:16.433  INFO 25898 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 19:54:41.427  INFO 25901 --- [main] o.openedusoft.school.SchoolApplication   : Starting SchoolApplication on niladris-MacBook-Pro.local with PID 25901 (/Users/niladri/workspace/edx/school/target/classes started by niladri in /Users/niladri/workspace/edx/school)
+2019-04-04 19:54:41.461 DEBUG 25901 --- [main] o.openedusoft.school.SchoolApplication   : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 19:54:41.462  INFO 25901 --- [main] o.openedusoft.school.SchoolApplication   : No active profile set, falling back to default profiles: default
+2019-04-04 19:54:42.672  INFO 25901 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2019-04-04 19:54:42.698  INFO 25901 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-04 19:54:42.698  INFO 25901 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-04 19:54:42.707  INFO 25901 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/niladri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-04 19:54:42.790  INFO 25901 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-04 19:54:42.790  INFO 25901 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1298 ms
+2019-04-04 19:54:43.466  INFO 25901 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-04 19:54:43.520  INFO 25901 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-04 19:54:43.616  INFO 25901 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 19:54:43.793  INFO 25901 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-04 19:54:43.813  INFO 25901 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-04 19:54:43.847  INFO 25901 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-04 19:54:43.896  INFO 25901 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2019-04-04 19:54:43.900  INFO 25901 --- [main] o.openedusoft.school.SchoolApplication   : Started SchoolApplication in 17.781 seconds (JVM running for 18.094)
+2019-04-04 19:55:15.844  INFO 25901 --- [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-04 19:55:15.845  INFO 25901 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-04 19:55:15.853  INFO 25901 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-04-04 20:00:00.005  INFO 25901 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 20:00:24.985  INFO 25908 --- [main] o.openedusoft.school.SchoolApplication   : Starting SchoolApplication on niladris-MacBook-Pro.local with PID 25908 (/Users/niladri/workspace/edx/school/target/classes started by niladri in /Users/niladri/workspace/edx/school)
+2019-04-04 20:00:24.987 DEBUG 25908 --- [main] o.openedusoft.school.SchoolApplication   : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 20:00:24.988  INFO 25908 --- [main] o.openedusoft.school.SchoolApplication   : No active profile set, falling back to default profiles: default
+2019-04-04 20:00:26.163  INFO 25908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2019-04-04 20:00:26.193  INFO 25908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-04 20:00:26.193  INFO 25908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-04 20:00:26.202  INFO 25908 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/niladri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-04 20:00:26.288  INFO 25908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-04 20:00:26.288  INFO 25908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1270 ms
+2019-04-04 20:00:26.929  INFO 25908 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-04 20:00:26.983  INFO 25908 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-04 20:00:27.077  INFO 25908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 20:00:27.251  INFO 25908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-04 20:00:27.269  INFO 25908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-04 20:00:27.302  INFO 25908 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-04 20:00:27.472  INFO 25908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2019-04-04 20:00:27.475  INFO 25908 --- [main] o.openedusoft.school.SchoolApplication   : Started SchoolApplication in 17.825 seconds (JVM running for 18.14)
+2019-04-04 20:00:39.111  INFO 25908 --- [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-04 20:00:39.111  INFO 25908 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-04 20:00:39.119  INFO 25908 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-04-04 22:51:25.557  INFO 25908 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 22:51:48.726  INFO 25953 --- [main] o.openedusoft.school.SchoolApplication   : Starting SchoolApplication on niladris-MacBook-Pro.local with PID 25953 (/Users/niladri/workspace/edx/school/target/classes started by niladri in /Users/niladri/workspace/edx/school)
+2019-04-04 22:51:48.729 DEBUG 25953 --- [main] o.openedusoft.school.SchoolApplication   : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 22:51:48.729  INFO 25953 --- [main] o.openedusoft.school.SchoolApplication   : No active profile set, falling back to default profiles: default
+2019-04-04 22:51:50.011  INFO 25953 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2019-04-04 22:51:50.038  INFO 25953 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-04 22:51:50.038  INFO 25953 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-04 22:51:50.046  INFO 25953 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/niladri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-04 22:51:50.120  INFO 25953 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-04 22:51:50.120  INFO 25953 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1356 ms
+2019-04-04 22:51:50.759  INFO 25953 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-04 22:51:50.822  INFO 25953 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-04 22:51:50.921  INFO 25953 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 22:51:51.138  INFO 25953 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-04 22:51:51.160  INFO 25953 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-04 22:51:51.201  INFO 25953 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-04 22:51:51.399  INFO 25953 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2019-04-04 22:51:51.403  INFO 25953 --- [main] o.openedusoft.school.SchoolApplication   : Started SchoolApplication in 18.016 seconds (JVM running for 18.329)
+2019-04-04 22:52:28.645  INFO 25953 --- [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-04 22:52:28.646  INFO 25953 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-04 22:52:28.653  INFO 25953 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-04-04 23:05:26.993  INFO 25953 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 23:05:58.536  INFO 26188 --- [main] o.openedusoft.school.SchoolApplication   : Starting SchoolApplication on niladris-MacBook-Pro.local with PID 26188 (/Users/niladri/workspace/edx/school/target/classes started by niladri in /Users/niladri/workspace/edx/school)
+2019-04-04 23:05:58.538 DEBUG 26188 --- [main] o.openedusoft.school.SchoolApplication   : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 23:05:58.538  INFO 26188 --- [main] o.openedusoft.school.SchoolApplication   : No active profile set, falling back to default profiles: default
+2019-04-04 23:05:59.753  INFO 26188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2019-04-04 23:05:59.778  INFO 26188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-04 23:05:59.779  INFO 26188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-04 23:05:59.788  INFO 26188 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/niladri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-04-04 23:05:59.872  INFO 26188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-04 23:05:59.873  INFO 26188 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1304 ms
+2019-04-04 23:06:00.508  INFO 26188 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-04 23:06:00.565  INFO 26188 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-04 23:06:00.655  INFO 26188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 23:06:00.839  INFO 26188 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-04 23:06:00.858  INFO 26188 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-04 23:06:00.891  INFO 26188 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-04 23:06:01.053  INFO 26188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2019-04-04 23:06:01.056  INFO 26188 --- [main] o.openedusoft.school.SchoolApplication   : Started SchoolApplication in 17.852 seconds (JVM running for 18.169)
+2019-04-04 23:07:36.673  INFO 26188 --- [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-04 23:07:36.674  INFO 26188 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-04 23:07:36.682  INFO 26188 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-04-04 23:09:02.625  INFO 26188 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

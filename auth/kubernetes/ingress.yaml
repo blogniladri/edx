@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+ name: product-ingress
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /product
+        backend:
+         serviceName: product
+         servicePort: 9001
